@@ -78,11 +78,14 @@ body {
 }
 .selected-photographes {
   margin: 25px;
-  font-size: 36px;
+
   color: #1f2937;
   font-weight: 900;
   text-align: center;
   height: 60vh;
+}
+.selected-photographes h2 {
+  font-size: 36px;
 }
 .photographes {
   margin: 50px;
