@@ -94,3 +94,54 @@ body {
   font-style: italic;
   color: #1f2937;
 }
+.call-to-action {
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.action-card {
+  color: #f9faf8;
+  background-color: #3882f6;
+  padding: 80px;
+
+  justify-content: space-around;
+  border-radius: 5px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+.card-content h4 {
+  font-weight: 800;
+  font-size: 18px;
+}
+.action-card button {
+  padding: 8px;
+  background-color: #3882f6;
+  border: 2px solid white;
+  font-size: 18px;
+  font-weight: 500;
+  border-radius: 5px;
+  color: #f9faf8;
+  margin-top: 20px;
+}
+.action-card button:hover {
+  background-color: #f9faf8;
+  cursor: pointer;
+  color: #1f2937;
+}
+.action-card button:active {
+  background-color: #3882f6;
+  color: #f9faf8;
+}
+footer {
+  background-color: #1f2937;
+  color: #f9faf8;
+  height: 15vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
