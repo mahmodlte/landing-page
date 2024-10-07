@@ -64,3 +64,22 @@ body {
   border-radius: 5px;
   color: #e5e7eb;
 }
+.selected-photographes {
+  margin: 25px;
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  text-align: center;
+  height: 60vh;
+}
+.photographes {
+  margin: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+}
+.photographes figure img {
+  border: 4px solid #3882f6;
+  border-radius: 5px;
+}
